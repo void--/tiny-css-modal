@@ -1,6 +1,6 @@
 {
   "name": "tiny-css-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A featherweight (489 byte) css-only modal library",
   "main": "index.js",
   "scripts": {
