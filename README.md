@@ -1,6 +1,6 @@
 # Tiny CSS Modal
 
-A featherweight (489 byte) modal library based on this codepen https://codepen.io/timothylong/pen/HhAer by Timothy Long (Thanks Tim!)
+A featherweight (489 byte) css-only modal library based on this codepen https://codepen.io/timothylong/pen/HhAer by Timothy Long (Thanks Tim!)
 
 Check it out here: https://void--.github.io/tiny-css-modal/
 
