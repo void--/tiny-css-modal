@@ -18,13 +18,19 @@ add a link to the minified css
 
 `<link rel="stylesheet" href="node_modules/tiny-css-modal/tiny-css-modal.min.css">`
 
-and add the following markup to any page where you want a modal:
+add the following markup to any page where you want a modal:
 
 ```
-<div id="tcm__wrapper" class="tcm__content">
+<div id="tcm__open-modal" class="tcm__content">
   <div>
-    <a href="#tcm__close-button" title="Close" class="tcm__close-button">Close</a>
+    <a href="#tcm__close-modal" title="Close" class="tcm__close-button">Close</a>
     <!-- Your content goes here -->
   </div>
 </div>
 ```
+
+and finally, add a link somewhere on the page to open the modal:
+
+`<a href="#tcm__open-modal"><!-- Your text here --></a>`
+
+If you can't get your jollies without using javascript you can trigger the modal by setting `location.hash` to `tcm__open-modal` and close it by setting `location.hash` to anything else.
