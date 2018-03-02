@@ -12,7 +12,7 @@ All other modal libraries were too big or too ugly or too fancy. Can't we have a
 
 To use simply
 
-`npm install tiny-css-modal --save`
+`npm install tiny-css-modal`
 
 add a link to the minified css
 
