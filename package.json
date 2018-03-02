@@ -1,6 +1,6 @@
 {
   "name": "tiny-css-modal",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A featherweight (489 byte) css-only modal library",
   "main": "tiny-css-modal.min.css",
   "scripts": {
@@ -10,8 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/void--/tiny-css-modal.git"
   },
-  "author": "Theo Ballew",
-  "license": "ISC",
+  "author": {
+    "name": "Theo Ballew",
+    "email": "theoballew@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/void--/tiny-css-modal/issues"
   },

@@ -1,4 +1,4 @@
-.tcm-content {
+.tcm-wrapper {
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   top: 0;
@@ -14,14 +14,14 @@
   transition: all 0.3s;
 }
 
-.tcm-content:target {
+.tcm-wrapper:target {
   z-index: 999;
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
 }
 
-.tcm-content > div {
+.tcm-content {
   box-sizing: border-box;
   position: relative;
   width: 90vw;

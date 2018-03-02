@@ -1,6 +1,6 @@
 # Tiny CSS Modal
 
-A featherweight (581 byte) css-only modal library based on this codepen https://codepen.io/timothylong/pen/HhAer by Timothy Long (Thanks Tim!)
+A featherweight (577 byte) css-only modal library based on this codepen https://codepen.io/timothylong/pen/HhAer by Timothy Long (Thanks Tim!)
 
 Check it out here: https://void--.github.io/tiny-css-modal/
 
@@ -21,8 +21,8 @@ add a link to the minified css
 add the following markup to any page where you want a modal:
 
 ```
-<div id="tcm-open-modal" class="tcm-content">
-  <div>
+<div id="tcm-open-modal" class="tcm-wrapper">
+  <div class="tcm-content">
     <a href="#tcm-close-modal" title="Close" class="tcm-close-button">Close</a>
     <!-- Your content goes here -->
   </div>
